@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+  /* Note: Try to remove the following lines to see the effect of CSS positioning */
+  .affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Projects</h1>
+  <p>The faculty and students associated with RBC-DSAI undertake a variety of projects under a wide range of areas. </p> 
+</div>
+  <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+  <ul class="nav navbar-nav">
+    <li class="active"><a href="#">DSAI</a></li>
+    <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" herf="#">SMART CITIES <span class="caret"></span></a>
+     <ul class="dropdown-menu">
+	 <li> <a herf="#"> Transportation </a></li>
+         <li> <a herf="#"> Power </a></li>
+          <li> <a herf="#"> WDN </a></li>
+        </ul>
+        </li>
+    <li><a href="#">Manufacturing technologies</a></li>
+    <li><a href="#">Financial Ananlysis</a></li>
+    <li><a href="#">Biological network</a></li>
+    <li><a href="#">others</a></li>
+  </ul>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>smart cities</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <dl>
+        <dt> - transportation</dt>
+         <dt> - Power </dt>
+          <dt>- water distribution network </dt>
+        </dl>
+
+
+    </div>
+    <div class="col-sm-4">
+      <h3>Manufacturing technology</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>finicial technology</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>biological network</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>others</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
